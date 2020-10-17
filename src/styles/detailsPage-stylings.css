@@ -1,0 +1,87 @@
+.details-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+#bar{
+    width: 100%;
+    background: rgba(211, 211, 211, 0.363);
+    position: relative;
+    top: 10px;
+    height: 20px;
+}
+#bar-content{
+    background: rgba(128, 128, 128, 0.39);
+    width: 30%;
+    height: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.content-conatiner{
+    height: 90%;
+    width: 93%;
+    margin: auto;
+    padding: 1%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-container{
+    margin: 0 10px;
+    padding: 5px;
+    width: 20%;
+    height: 85%;
+    box-shadow: 1px 1px 3px rgba(68, 68, 68, 0.233);
+}
+
+.card-container ul li{
+    list-style: none;
+    float: left;
+    border: 1px solid rgba(0, 0, 0, 0.233);
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(68, 68, 68, 0.233);
+    padding: 3px 10px;
+    margin: 3px;
+}
+
+.card-container button{
+    background: rgba(54, 155, 54, 0.952);
+    padding: 5px 50px;
+    margin: auto;
+}
+
+.img-container{
+    height: 40%;
+    padding: 10px;
+    margin: 0;
+}
+
+.card-img{
+    object-fit: cover;
+    position: relative;
+    height: 100%;
+}
+
+.card-container #foot{
+    font-size: 10px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.527);
+    position: relative;
+    left: 30%;
+    top: 5px;
+    padding: 6px;
+}
+
+#verified{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+#online{
+    position: absolute;
+    top: 38%;
+    right: 0%;
+}
